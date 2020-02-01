@@ -104,6 +104,16 @@ def send_welcome(message):
     bot.reply_to(message, "Howdy, how are you doing?")
 
 
+@bot.message_handler(commands=['send'])
+def touch_post(message):
+    try:
+        sendPost()
+        bot.reply_to(message, "success")
+    except:
+        bot.reply_to(message, "error")
+
+
+
 print('bot has been started')
 
 bot.polling()
