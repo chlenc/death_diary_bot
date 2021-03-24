@@ -39,7 +39,7 @@ python-telegram-bot==12.3.0
 pytz==2019.3
 requests==2.11.1
 requests-toolbelt==0.7.0
-rsa==4.0
+rsa==4.1
 six==1.14.0
 tornado==6.0.3
 uritemplate==3.0.1
